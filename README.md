@@ -26,7 +26,11 @@ To build and run the app, follow these steps:
 
 ## Usage
 
-Upon launching, the app presents a user interface with multiple checkboxes corresponding to different root checks. Press the "Check Root" button to perform the checks. The app will display whether the device is rooted based on the checks and show a detailed alert message.
+Upon launching, the app presents a user interface with multiple checkboxes corresponding to different root checks. Press the "Check Root" button to perform the checks. The app will display whether the device is rooted based on the checks and show a detailed alert message.![UI](https://github.com/user-attachments/assets/4454fff5-0607-4a47-b157-ef1d1417ba5d)
+![rootdetected](https://github.com/user-attachments/assets/8b21824c-3e57-4369-bb01-2159e0e92346)
+
+
+
 
 ## Contributing
 
