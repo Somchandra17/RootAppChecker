@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Root Detection Results"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBoxKnownRootFiles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Known Root Files"
+        android:clickable="false"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxSUBinary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SU Binary"
+        android:clickable="false"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxBusyBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:text="BusyBox" />
+
+    <CheckBox
+        android:id="@+id/checkBoxRootApps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Root Management Apps"
+        android:clickable="false"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxSystemIntegrity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="System Integrity"
+        android:clickable="false"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxMagisk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magisk"
+        android:clickable="false"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxNativeCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Native Check"
+        android:clickable="false"/>
+
+    <Button
+        android:id="@+id/buttonCheckRoot"
+        android:layout_width="375dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Check for Root" />
+
+</LinearLayout>
